@@ -4,6 +4,7 @@ class Warrior extends Player{
 @override
   int get baseHealth => 100;
   @override
-  // TODO: implement baseCriticalChance
+  late int ati;
   int get baseCriticalChance => 10;
+
 }
