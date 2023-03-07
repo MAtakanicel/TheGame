@@ -1,12 +1,12 @@
-class Player {
+abstract class Player {
 late  final int baseHealth;
 late  final int baseDamage;
 late  final int baseDefence;
 late  final int baseMana;
 late  final int baseDodge;
 late  final int baseCriticalChance;
-  late int money;
-  late double experincePoint;
+int money = 0;
+double experincePoint = 0;
 
   
 
