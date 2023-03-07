@@ -2,12 +2,12 @@ import 'Player.dart';
 
 class Warrior implements Player {
 @override
-  int baseHealth = 85;
-  int baseDamage = 85;
-  int baseDefence = 85;
+  int baseHealth = 100;
+  int baseDamage = 70;
+  int baseDefence = 100;
   int baseMana = 100;
-  int baseDodge = 25;
-  int baseCriticalChance = 25;
+  int baseDodge = 10;
+  int baseCriticalChance = 0;
   int money = 0;
   double experincePoint = 0;
   

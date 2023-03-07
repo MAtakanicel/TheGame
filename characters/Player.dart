@@ -1,32 +1,20 @@
 abstract class Player {
-late  final int baseHealth;
-late  final int baseDamage;
-late  final int baseDefence;
-late  final int baseMana;
-late  final int baseDodge;
-late  final int baseCriticalChance;
-int money = 0;
-double experincePoint = 0;
+  late final int baseHealth;
+  late final int baseDamage;
+  late final int baseDefence;
+  late final int baseMana;
+  late final int baseDodge;
+  late final int baseCriticalChance;
+  int money = 0;
+  double experincePoint = 0;
 
-  
+  int scaleHealth();
 
-  int scaleHealth() {
-    return baseHealth;
-  }
+  int scaleDamage();
 
-  int scaleDamage() {
-    return baseDamage;
-  }
+  int scaleDefence();
 
-  int scaleDefence() {
-    return baseDefence;
-  }
+  int scaleMana();
 
-  int scaleMana() {
-    return baseMana;
-  }
-
-  int scaleDodge() {
-    return baseDodge;
-  }
+  int scaleDodge();
 }

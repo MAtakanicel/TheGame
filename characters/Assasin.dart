@@ -4,9 +4,9 @@ class Assasin implements Player {
   @override
   int baseHealth = 70;
   int baseDamage = 100;
-  int baseDefence = 70;
+  int baseDefence = 50;
   int baseMana = 100;
-  int baseDodge = 45;
+  int baseDodge = 50;
   int baseCriticalChance = 40;
   int money = 0;
   double experincePoint = 0;
