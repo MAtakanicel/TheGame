@@ -12,32 +12,27 @@ class Assasin implements Player {
   double experincePoint = 0;
 
   @override
-  int scaleDamage() {
-    // TODO: implement scaleDamage
-    throw UnimplementedError();
+  double scaleDamage() {
+    return baseDamage + 10;
   }
 
   @override
-  int scaleDefence() {
-    // TODO: implement scaleDefence
-    throw UnimplementedError();
+  double scaleDefence() {
+    return baseDefence + 2.5;
   }
 
   @override
-  int scaleDodge() {
-    // TODO: implement scaleDodge
-    throw UnimplementedError();
+  double scaleDodge() {
+    return baseDodge + 10;
   }
 
   @override
-  int scaleHealth() {
-    // TODO: implement scaleHealth
-    throw UnimplementedError();
+  double scaleHealth() {
+    return baseHealth + 5;
   }
 
   @override
-  int scaleMana() {
-    // TODO: implement scaleMana
-    throw UnimplementedError();
+  double scaleMana() {
+    return baseMana + 10;
   }
 }

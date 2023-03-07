@@ -8,13 +8,15 @@ abstract class Player {
   int money = 0;
   double experincePoint = 0;
 
-  int scaleHealth();
+  double scaleHealth();
 
-  int scaleDamage();
+  double scaleDamage();
 
-  int scaleDefence();
+  double scaleDefence();
 
-  int scaleMana();
+  double scaleMana() {
+    return baseMana + 10;
+  }
 
-  int scaleDodge();
+  double scaleDodge();
 }

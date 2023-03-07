@@ -1,7 +1,7 @@
 import 'Player.dart';
 
-class Berserk implements Player{
-@override
+class Berserk implements Player {
+  @override
   int baseHealth = 100;
   int baseDamage = 85;
   int baseDefence = 70;
@@ -10,34 +10,29 @@ class Berserk implements Player{
   int baseCriticalChance = 0;
   int money = 0;
   double experincePoint = 0;
-  
+
   @override
-  int scaleDamage() {
-    // TODO: implement scaleDamage
-    throw UnimplementedError();
+  double scaleDamage() {
+    return baseDamage + 7.5;
   }
-  
+
   @override
-  int scaleDefence() {
-    // TODO: implement scaleDefence
-    throw UnimplementedError();
+  double scaleDefence() {
+    return baseDefence + 5;
   }
-  
+
   @override
-  int scaleDodge() {
-    // TODO: implement scaleDodge
-    throw UnimplementedError();
+  double scaleDodge() {
+    return baseDodge + 2.5;
   }
-  
+
   @override
-  int scaleHealth() {
-    // TODO: implement scaleHealth
-    throw UnimplementedError();
+  double scaleHealth() {
+    return baseHealth + 10;
   }
-  
+
   @override
-  int scaleMana() {
-    // TODO: implement scaleMana
-    throw UnimplementedError();
+  double scaleMana() {
+    return baseMana + 10;
   }
 }
