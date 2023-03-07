@@ -1,6 +1,6 @@
-import 'Player.dart';
+import 'Character.dart';
 
-class Assasin implements Player {
+class Assasin implements Character {
   @override
   int baseHealth = 70;
   int baseDamage = 100;

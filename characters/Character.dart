@@ -1,4 +1,5 @@
-abstract class Player {
+
+abstract class Character {
   late final int baseHealth;
   late final int baseDamage;
   late final int baseDefence;
